@@ -55,13 +55,13 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Holidays",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
+						url: "webcal://www.calendarlabs.com/ical-calendar/ics/33/India_Holidays.ics"
 					}
 				]
 			}
