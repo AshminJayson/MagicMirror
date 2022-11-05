@@ -61,7 +61,8 @@ let config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/33/India_Holidays.ics"
+						url: "webcal://www.calendarlabs.com/ical-calendar/ics/33/India_Holidays.ics",
+						maximumEntries : 3,
 					}
 				]
 			}
