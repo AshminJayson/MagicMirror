@@ -54,17 +54,17 @@ let config = {
 			},
 		},
 		{
-			module: "calendar",
-			header: "Holidays",
+			module: 'MMM-GoogleCalendar',
+			header: "Calendar",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
-						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/33/India_Holidays.ics",
-						maximumEntries : 3,
-					}
-				]
+					  symbol: "calendar-week",
+					  calendarID: "ashminjayson10@gmail.com"
+					},
+					// add another calendar HERE if needed
+				],
 			}
 		},
 		{
