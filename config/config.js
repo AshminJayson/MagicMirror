@@ -56,22 +56,22 @@ let config = {
 		{
 			module: 'MMM-GoogleCalendar',
 			header: "Calendar",
-			position: "top_left",
+			position: "top_right",
 			config: {
 				calendars: [
 					{
-					  symbol: "calendar-week",
-					  calendarID: "ashminjayson10@gmail.com"
+						
+						symbol: "calendar-week",
+						calendarID: "ashminjayson10@gmail.com"
 					},
 					// add another calendar HERE if needed
 				],
 			}
 		},
-		{
-			module: "compliments",
-			position: "lower_third"
-		},
-		
+		// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
+		// },
 		{
 			module: "weather",
 			position: "top_right",
@@ -84,6 +84,18 @@ let config = {
 				apiKey: "824fe5d0147f9bde2545aba6858280fa"
 			}
 		},
+		
+        {
+            module: 'MMM-Carousel',
+			position: 'bottom_bar',
+            config: {
+                transitionInterval: 10000,
+                ignoreModules: [],
+                mode: 'positional',
+                top_right: {enabled: true, ignoreModules: [], overrideTransitionInterval: 10000},
+            }
+        },
+
 	]
 };
 
