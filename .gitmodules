@@ -10,3 +10,6 @@
 [submodule "modules/MMM-GoogleCalendar"]
 	path = modules/MMM-GoogleCalendar
 	url = https://github.com/randomBrainstormer/MMM-GoogleCalendar.git
+[submodule "modules/MMM-KeyBindings"]
+	path = modules/MMM-KeyBindings
+	url = https://github.com/shbatm/MMM-KeyBindings.git
