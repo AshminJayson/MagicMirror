@@ -41,6 +41,7 @@ let config = {
 		{
 			module: "alert",
 		},
+
 		{
 			module: "updatenotification",
 			position: "top_bar"
@@ -68,10 +69,17 @@ let config = {
 				],
 			}
 		},
-		// {
-		// 	module: "compliments",
-		// 	position: "lower_third"
-		// },
+		{
+            module: 'MMM-KeyBindings',
+            config: {
+                // See below for configurable options
+				enableKeyboard: true
+            }
+        },
+		{
+			module: "compliments",
+			position: "lower_third"
+		},
 		{
 			module: "weather",
 			position: "top_right",
@@ -79,7 +87,7 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "Cochin",
+				location: " ",
 				locationID: "1273874", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "824fe5d0147f9bde2545aba6858280fa"
 			}
