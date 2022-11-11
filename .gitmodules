@@ -1,6 +1,6 @@
 [submodule "modules/MMM-Carousel"]
 	path = modules/MMM-Carousel
-	url = https://github.com/shbatm/MMM-Carousel
+	url = https://github.com/shbatm/MMM-Carousel.git
 [submodule "modules/modules/MMM-Carousel"]
 	path = modules/modules/MMM-Carousel
 	url = https://github.com/shbatm/MMM-Carousel
