@@ -72,14 +72,13 @@ let config = {
 		{
             module: 'MMM-KeyBindings',
             config: {
-                // See below for configurable options
 				enableKeyboard: true
             }
         },
-		{
-			module: "compliments",
-			position: "lower_third"
-		},
+		// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
+		// },
 		{
 			module: "weather",
 			position: "top_right",
@@ -97,11 +96,24 @@ let config = {
             module: 'MMM-Carousel',
 			position: 'bottom_bar',
             config: {
+				showPageIndicators: true,
+				showPageControls: true,
                 transitionInterval: 10000,
                 ignoreModules: [],
                 mode: 'positional',
                 top_right: {enabled: true, ignoreModules: [], overrideTransitionInterval: 10000},
-            }
+            },
+
+			keyBindings: {
+				enabled: true,
+				map: {
+					NextSlide: "ArrowRight",
+					PrevSlide: "ArrowLeft",
+					Slide0:    "Home"
+				},
+				mode: "DEFAULT"
+			}
+
         },
 
 	]
