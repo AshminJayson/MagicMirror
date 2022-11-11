@@ -1,3 +1,12 @@
 [submodule "modules/MMM-Carousel"]
 	path = modules/MMM-Carousel
 	url = https://github.com/shbatm/MMM-Carousel
+[submodule "modules/modules/MMM-Carousel"]
+	path = modules/modules/MMM-Carousel
+	url = https://github.com/shbatm/MMM-Carousel
+[submodule "MMM-GoogleCalendar"]
+	path = MMM-GoogleCalendar
+	url = https://github.com/randomBrainstormer/MMM-GoogleCalendar.git
+[submodule "modules/MMM-GoogleCalendar"]
+	path = modules/MMM-GoogleCalendar
+	url = https://github.com/randomBrainstormer/MMM-GoogleCalendar.git
